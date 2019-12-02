@@ -3,7 +3,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/security?serverTimezone=UTC&useUnicode=yes&characterEncoding=UTF-8&useSSL=false
     username: root
-    password: 123456
+    password: root
   session:
     store-type: none
 #security:
@@ -16,7 +16,7 @@ weya:
       loginType: REDIRECT
     code:
       image:
-        length: 6
-        width: 100
+#        length: 6
+#        width: 100
         url: /user/*
 
