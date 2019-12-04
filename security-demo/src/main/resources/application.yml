@@ -12,11 +12,20 @@ spring:
 weya:
   security:
     browser:
-      loginPage: /demo-sign.html
+#      loginPage: /demo-sign.html
+      loginPage: /demo-signUp.html
       loginType: REDIRECT
+      filterProcessesUrl: /qqLogin
     code:
       image:
 #        length: 6
 #        width: 100
         url: /user/*
+    social:
+      qq:
+        app-id:
+        app-secret:
+        providerId: callback.do
+
+
 

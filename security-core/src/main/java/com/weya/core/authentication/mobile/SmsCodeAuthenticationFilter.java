@@ -20,7 +20,7 @@ public class SmsCodeAuthenticationFilter extends AbstractAuthenticationProcessin
 
     // ~ Constructors
     // ===================================================================================================
-
+    //设置拦截的URL
     public SmsCodeAuthenticationFilter() {
         super(new AntPathRequestMatcher(SecurityConstants.DEFAULT_LOGIN_PROCESSING_URL_MOBILE, "POST"));
     }

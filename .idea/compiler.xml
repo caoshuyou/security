@@ -6,14 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="security-app" />
+        <module name="security-browser" />
+        <module name="security-core" />
+        <module name="security-demo" />
+        <module name="securityapp" />
         <module name="securitybrowser" />
         <module name="securitycore" />
-        <module name="security-core" />
-        <module name="securityapp" />
         <module name="securitydemo" />
-        <module name="security-app" />
-        <module name="security-demo" />
-        <module name="security-browser" />
       </profile>
     </annotationProcessing>
   </component>
