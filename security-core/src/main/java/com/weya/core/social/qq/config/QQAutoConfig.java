@@ -11,7 +11,6 @@ import org.springframework.social.connect.ConnectionFactory;
 
 import java.util.logging.SocketHandler;
 @Configuration
-@ConditionalOnProperty(prefix = "imooc.security.social.qq", name = "app-id")
 public class QQAutoConfig extends SocialAutoConfigurerAdapter {
 
     @Autowired

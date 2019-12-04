@@ -19,7 +19,7 @@ public class QQAdapter implements ApiAdapter<QQ> {
         values.setDisplayName(userInfo.getNickname());
         values.setImageUrl(userInfo.getFigureurl_qq_1());
         values.setProfileUrl(null);
-        values.setProviderUserId(userInfo.getOpenId());
+        values.setProviderUserId(userInfo.getOpenId());//openId 唯一标识
     }
 
     @Override
